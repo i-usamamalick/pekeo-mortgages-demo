@@ -1,0 +1,169 @@
+body{
+    overflow-x: hidden;
+}
+#leaderboard {
+    padding:10px;
+}
+.ladder-nav {
+    display:flex;
+    flex-wrap:wrap;
+    align-items: center;
+    padding:0px 10px;
+    margin-top: 10px;
+}
+.ladder-title {
+  flex:2;
+}
+
+.ladder-title h1{
+  font-size:30px;
+  color:black!important;
+  font-weight:800;
+}
+/* /end Ladder Navigation */
+/* Leaderboard Results */
+
+#select-picker{
+  padding: 5px 30px 5px 10px !important;
+  background-color: #e0e3e2 !important;
+  font-size: 14px !important;
+  font-weight: bold !important;
+}
+#rankings,#mortgage {
+  border-collapse: collapse;
+}
+
+#rankings tr{
+  border-bottom: 1px dashed black;
+  line-height: 3;
+}
+#mortgage tr{
+    border-bottom: 1px dashed black !important;
+    line-height: 3 !important;
+  }
+/* /end Leaderboard Results */
+#rankings thead tr th:nth-child(1),
+#rankings tbody tr td:nth-child(1) {
+  width: 80px !important;
+  min-width: 80px !important;
+}
+#rankings thead tr th:nth-child(2),
+#rankings tbody tr td:nth-child(2) {
+  width: auto !important;
+  min-width: 170px !important;
+}
+#rankings thead tr th:nth-child(3),
+#rankings tbody tr td:nth-child(3)  {
+  width: 130px !important;
+  min-width: 130px !important;
+}
+#rankings thead tr th:nth-child(4),
+#rankings tbody tr td:nth-child(4){
+width: 120px !important;
+  min-width: 120px !important;
+}
+#rankings tbody tr td:nth-child(4){
+text-align: center;
+}
+.edit_btn{
+    border: none;
+    color: #121212;
+    background: lightgrey;
+    font-size: 14px;
+    padding: 0px 10px;
+}
+@media screen and (max-width: 868px) {
+    .container-wrap{
+        overflow-x: scroll;
+    }
+    
+}
+#logo-img{
+    height: 100px;
+    width: inherit;
+}
+@media screen and (max-width:767px) {
+    #logo-img{
+        margin-bottom: 30px;
+    }    
+}
+@media screen and (max-width:557px) {
+    #top-heading{
+        font-size: 20px;
+    }    
+}
+#select-picker-mteam{
+    padding: 5px 30px 5px 10px !important;
+    background-color: #e31524 !important;
+    font-size: 14px !important;
+    font-weight: bold !important;
+    color: #fff;
+}
+#mortgage_previous,#mortgage_next{
+    padding: 0px 10px;
+    margin-top: 5px;
+    font-size: 20px;
+    background: white;
+    margin-top: 0px;
+    margin-right: 5px;
+    border: 1px solid #c8c8c9;
+    cursor: pointer;
+}
+#mortgage_next{
+    margin-left: 5px;
+}
+#leaderboard-table-container{
+    margin-bottom: -10px !important;
+}
+#mortgage thead tr th:nth-child(1),
+#mortgage tbody tr td:nth-child(1) {
+  width: 190px !important;
+  min-width: 190px !important;
+}
+#mortgage thead tr th:nth-child(2),
+#mortgage tbody tr td:nth-child(2) {
+  width: 100px !important;
+  min-width: 100px !important;
+}
+#mortgage thead tr th:nth-child(3),
+#mortgage tbody tr td:nth-child(3)  {
+  width: 170px !important;
+  min-width: 170px !important;
+}
+#mortgage thead tr th:nth-child(4),
+#mortgage tbody tr td:nth-child(4){
+width: 50px !important;
+  min-width: 50px !important;
+  text-align: right;
+}
+#bolt-icon{
+    color: #e31524;
+    padding: 5px 15px;
+    cursor: pointer;
+}
+.sidebar-icons{
+    color: lightgrey;
+    padding: 5px 15px;
+    cursor: pointer;
+}
+.sidebar-icons:hover{
+    background: darkgrey;
+    color: white;
+}
+#round-bar{
+    background-color:white; 
+    height: 100px; 
+    width:100%;
+}
+.bg-white{
+    background: white;
+}
+.bg-lt-white{
+    background: #f3f6f9;
+}
+#rnd-bardiv1{
+    background-color:#f06035; 
+    height: 20px; 
+    width:100%; 
+    border-radius: 25px
+}
